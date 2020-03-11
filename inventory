@@ -2,7 +2,7 @@
 windows
 [win:vars]
 ansible_user=ansible
-ansible_password="\ph~1Kko)80iuBd"
+ansible_password=""
 ansible_connection=winrm
 ansible_winrm_transport=basic
 ansible_winrm_server_cert_validation=ignore
