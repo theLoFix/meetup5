@@ -3,3 +3,4 @@
 sudo yum -y update
 sudo yum -y install python3-pip
 sudo pip3 install ansible
+sudo pip3 install pywinrm
