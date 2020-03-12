@@ -32,9 +32,22 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 ```bash
 ```
 
-Rozwiazywanie problemow
 
-## 3. Opcje autentykacji:
+## 3. Wymagania dla WINDOWS:
+
+Ansible może zarządzać: 
+
+* Windows Desktops: 7, 8.1, 10
+
+* Windows Servers: 2008, 2008 R2, 2012, 2012 R2, 2016, 2019
+
+Ansible wymaga instalacji na systemie Windows:
+
+* PowerShell 3.0+  
+
+* .NET 4.0 
+
+## 4. Opcje autentykacji:
 
 | Opcja       | Konto lokalne | HTTP szyfrowanie | Konto AD |
 |-------------|---------------|------------------|----------|
@@ -43,6 +56,24 @@ Rozwiazywanie problemow
 | Kerberos    | NIE           | TAK              | TAK      |
 | NTLM        | TAK           | TAK              | TAK      |
 | CredSSP     | TAK           | TAK              | TAK      |
+
+**UWAGA**
+
+Dla potrzeb demo użyłem autentykacji Basic i Windowsa 2012 R2 w którym usługa WinRM jest włączona domyślnie zarówno dla HTTP(port 5985 jak i HTTPS (port 5986) i wymaga jedynie włączenia autentykacji basic następującym poleceniem:
+
+cmd:
+
+```bash
+winrm set winrm/config/service/auth @{Basic="true"}
+```
+
+lub
+
+powershell:
+
+```bash
+Set-Item -Path WSMan:\localhost\Service\Auth\Basic -Value $true
+```
 
 **Dokumentacja:**
 
