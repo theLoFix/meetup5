@@ -12,7 +12,7 @@
 
 1.5 Przykład uruchomienia ansible-playbook.
 
-## 2. ***Wymagania wstępne***
+## 2. Wymagania wstępne
 
 2.1 Konto gmail.
 
@@ -26,7 +26,8 @@
 ```bash
 ```
 
-Rozwiazywanie problemow 
+Rozwiazywanie problemow
+
 Dokumentacja:
 
 https://cloud.google.com/compute/docs/instances/create-start-instance
