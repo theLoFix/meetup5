@@ -1,23 +1,26 @@
 # meetup5
 
-DEMO - AGENDA
+1. DEMO - AGENDA
 
-Zestawienie środowiska w GCP
+1.1 Zestawienie środowiska w GCP.
 
-Zainstalowanie paczek potrzebnych dla ansible dla node'a kontrolującego
+1.2 Zainstalowanie paczek potrzebnych dla ansible dla node'a kontrolującego
 
-Ustawienie WINRM na maszynie Windows
+1.3 Ustawienie WINRM na maszynie Windows
 
-Ustawienie zmiennych w pliku inventory dla maszyny windows
+1.4 Ustawienie zmiennych w pliku inventory dla maszyny windows
 
-Przykład uruchomienia ansible-playbook
+1.5 Przykład uruchomienia ansible-playbook
 
 2. ***Wymagania wstępne***
 
-Konto gmail.
-https://console.cloud.google.com/
-Uruchomienie bilingu – wymaga „podpięcia” karty płatniczej.
-Stworzenie projektu.
+2.1 Konto gmail.
+
+2.2 https://console.cloud.google.com/
+
+2.3 Uruchomienie bilingu – wymaga „podpięcia” karty płatniczej.
+
+2.4 Stworzenie projektu.
 
 
 ```bash
