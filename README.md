@@ -28,6 +28,16 @@
 
 Rozwiazywanie problemow
 
+## 3. Opcje autentykacji:
+
+| Opcja       | Konto lokalne | HTTP szyfrowanie | Konto AD |
+|-------------|---------------|------------------|----------|
+| Basic       | TAK           | NIE              | NIE      |
+| Certificate | TAK           | NIE              | NIE      |
+| Kerberos    | NIE           | TAK              | TAK      |
+| NTLM        | TAK           | TAK              | TAK      |
+| CredSSP     | TAK           | TAK              | TAK      |
+
 **Dokumentacja:**
 
 https://cloud.google.com/compute/docs/instances/create-start-instance
