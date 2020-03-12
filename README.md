@@ -1,6 +1,6 @@
 # meetup5
 
-## 1. DEMO - AGENDA
+## 1. DEMO
 
 1.1 Skonfigurowanie środowiska w GCP.
 
