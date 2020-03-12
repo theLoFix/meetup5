@@ -4,11 +4,11 @@
 
 1.1 Zestawienie środowiska w GCP.
 
-1.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego (startup-script)
+1.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego (https://github.com/Ansible-in-DevOps/meetup5/blob/master/startup-script)
 
 1.3 Ustawienie WINRM na maszynie Windows
 
-1.4 Ustawienie zmiennych w pliku inventory dla maszyny windows
+1.4 Ustawienie zmiennych w pliku inventory dla maszyny windows ()
 
 1.5 Przykład uruchomienia ansible-playbook
 
