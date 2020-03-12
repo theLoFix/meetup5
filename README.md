@@ -25,6 +25,8 @@
 
 ```bash
 ```
+
+Rozwiazywanie problemow 
 Dokumentacja:
 
 https://cloud.google.com/compute/docs/instances/create-start-instance
