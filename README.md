@@ -12,7 +12,7 @@
 
 1.5 Przykład uruchomienia ansible-playbook.
 
-2. ***Wymagania wstępne***
+## 2. ***Wymagania wstępne***
 
 2.1 Konto gmail.
 
