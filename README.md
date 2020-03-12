@@ -4,7 +4,7 @@
 
 1.1 Zestawienie środowiska w GCP.
 
-1.2 Zainstalowanie paczek potrzebnych dla ansible dla node'a kontrolującego
+1.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego (startup-script)
 
 1.3 Ustawienie WINRM na maszynie Windows
 
