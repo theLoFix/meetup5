@@ -55,7 +55,7 @@ Ansible wymaga instalacji na systemie Windows:
 
 **UWAGA**
 
-Dla potrzeb demo użyłem autentykacji Basic i Windowsa 2012 R2 w którym usługa WinRM jest włączona domyślnie zarówno dla HTTP(port 5985 jak i HTTPS (port 5986) i wymaga jedynie włączenia autentykacji basic następującym poleceniem:
+Dla potrzeb demo użyłem autentykacji Basic i Windowsa 2012 R2 w którym usługa WinRM jest włączona domyślnie zarówno dla HTTP(port 5985) jak i HTTPS (port 5986) i wymaga jedynie włączenia autentykacji basic następującym poleceniem:
 
 cmd:
 
