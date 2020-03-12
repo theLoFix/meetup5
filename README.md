@@ -29,10 +29,6 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 2.4 Stworzenie projektu.
 
 
-```bash
-```
-
-
 ## 3. Wymagania dla WINDOWS:
 
 Ansible może zarządzać: 
