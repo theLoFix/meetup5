@@ -18,7 +18,7 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 
 1.5 Przykłady uruchomienia ansible-playbook.
 
-## 2. Wymagania wstępne
+## 2. Wymagania wstępne do pracy w chmurze GCP.
 
 2.1 Konto gmail.
 
