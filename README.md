@@ -2,7 +2,7 @@
 
 ## 1. DEMO - AGENDA
 
-1.1 Zestawienie środowiska w GCP.
+1.1 Skonfigurowanie środowiska w GCP.
 
 1.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego.
 
