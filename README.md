@@ -18,6 +18,8 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 
 1.5 Przykłady uruchomienia ansible-playbook.
 
+1.6 BONUS: IaC w TF + bitbucket (pipeline)
+
 ## 2. Wymagania wstępne do pracy w chmurze GCP.
 
 2.1 Konto gmail.
