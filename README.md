@@ -77,7 +77,7 @@ Set-Item -Path WSMan:\localhost\Service\Auth\Basic -Value $true
 
 https://cloud.google.com/compute/docs/instances/create-start-instance
 
-https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.htm
+https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html
 
 https://cloud.google.com/compute/docs/startupscript
 
