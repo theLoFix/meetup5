@@ -28,9 +28,9 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 
 1.5 Przykłady uruchomienia ansible-playbook.
     
-    ```bash
-    ansible -i inventory -m win_ping [name]
-    ```
+ ```bash
+ansible -i inventory -m win_ping [name]
+```   
 
 1.6 BONUS: IaC w TF + bitbucket (pipeline)
 
