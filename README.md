@@ -29,29 +29,29 @@ https://github.com/Ansible-in-DevOps/presentations.git
 
 1.4 Stworzenie projektu.
 
-## 1. DEMO
+## 2. DEMO
 
-1.1 Skonfigurowanie środowiska w GCP.
+2.1 Skonfigurowanie środowiska w GCP.
 
-1.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego.
+2.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego.
 
 https://github.com/Ansible-in-DevOps/meetup5/blob/master/startup-script 
 
-1.3 Ustawienie WinRM na maszynie Windows.
+2.3 Ustawienie WinRM na maszynie Windows.
 
 https://github.com/Ansible-in-DevOps/meetup5/blob/master/windows-startup-script-cmd
 
-1.4 Ustawienie zmiennych w pliku inventory dla maszyny Windows. 
+2.4 Ustawienie zmiennych w pliku inventory dla maszyny Windows. 
 
 https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 
-1.5 Przykłady uruchomienia ansible-playbook.
+2.5 Przykłady uruchomienia ansible-playbook.
     
  ```bash
 ansible -i inventory -m win_ping [name]
 ```   
 
-1.6 BONUS: IaC w TF + bitbucket (pipeline)
+2.6 BONUS: IaC w TF + bitbucket (pipeline)
 
 ## 3. Wymagania dla WINDOWS:
 
