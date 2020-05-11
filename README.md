@@ -1,5 +1,24 @@
-# meetup5
+# Meetup5
+Czas i miejsce:
+środa 13.05.2020, 17:00
+Spotkanie online.
 
+Agenda:
+16:45-17:00 Zebranie się uczestników
+
+17:00-17:50 Możliwości Azure DevOps.
+Rafał Pieńkowski założyciel i organizator grupy Bydgoszcz .Net User Group pokaże niezwykłe możliwości od Windows ukryte w chmurze Azure. Rafał ma długoletnie doświadczenie w .NET oraz Azure, które obecnie wykorzystuje w Huuuge Games. Nikt nie jest w stanie lepiej lepiej opowiedzieć o podejściu DevOps w Azure od Rafała. Myślisz w regionie Azure widzisz Rafała :)
+(https://www.linkedin.com/in/rafal-pienkowski/)
+
+17:50-18:40 Jak automatyzować instalację Windows w chmurze GCP z użyciem Ansible oraz Terraform (Bitbucket pipeline)?
+Prezentacje, w głównej mierze skupionej na praktycznej automatyzacji w systemie Windows, przeprowadzi Radosław Zduński.
+Radek posiada niezwykłą wiedzę oraz chęć automatyzacji wszystkiego co się da. Jak nie pisze skryptów w Python, skupia się na automatyzacji z wykorzystaniem Ansible. Nie mów Radkowi dwa razy, że się nie da. Usłyszał kiedyś, że się nie da połączyć Linux-a z Windowsem. A on nie tylko o tym wie, że się da, ale w dodatku zrobił to w skandynawskiej korporacji :)
+(https://www.linkedin.com/in/radoslaw-zdunski/)
+
+# Rafał Pieńkowski
+https://github.com/Ansible-in-DevOps/presentations.git
+
+# Radosław Zduński
 ## 1. Wymagania wstępne do pracy w chmurze GCP.
 
 1.1 Konto gmail.
