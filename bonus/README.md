@@ -1,4 +1,4 @@
-## Bonus jest przygotowany pod kątem uruchamiania pipeline'u w serwisie https://bitbucket.org/
+## Bonus jest przygotowany do uruchamiania pipeline'u w serwisie https://bitbucket.org/
 
 # 1. Opis tworzenia konta typu service account
 
