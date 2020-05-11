@@ -1,5 +1,15 @@
 # meetup5
 
+## 1. Wymagania wstępne do pracy w chmurze GCP.
+
+1.1 Konto gmail.
+
+1.2 https://console.cloud.google.com/
+
+1.3 Uruchomienie bilingu – wymaga „podpięcia” karty płatniczej.
+
+1.4 Stworzenie projektu.
+
 ## 1. DEMO
 
 1.1 Skonfigurowanie środowiska w GCP.
@@ -19,17 +29,6 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
 1.5 Przykłady uruchomienia ansible-playbook.
 
 1.6 BONUS: IaC w TF + bitbucket (pipeline)
-
-## 2. Wymagania wstępne do pracy w chmurze GCP.
-
-2.1 Konto gmail.
-
-2.2 https://console.cloud.google.com/
-
-2.3 Uruchomienie bilingu – wymaga „podpięcia” karty płatniczej.
-
-2.4 Stworzenie projektu.
-
 
 ## 3. Wymagania dla WINDOWS:
 
