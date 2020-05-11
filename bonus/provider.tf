@@ -3,7 +3,7 @@ provider "google" {
 
   credentials = file("bb.json")
 
-  project = "enter name of your project id ehere"
+  project = "enter name of your project id here"
   region  = "enter a region for your project"
   zone    = "enter a zone for your project"
 }
