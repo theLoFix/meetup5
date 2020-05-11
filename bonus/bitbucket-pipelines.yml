@@ -1,0 +1,10 @@
+image: hashicorp/terraform:0.12.24
+pipelines:
+  custom:
+    gce:
+    - step:
+        script:
+          - terraform version
+          - terraform init
+          - TF_LOG=DEBUG terraform apply -auto-approve
+          #- terraform destroy -auto-approve
