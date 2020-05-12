@@ -8,6 +8,6 @@ https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creatin
 
 ## 3. Uzupełnij wartości dla kluczy: project, region, zone w pliku provider.tf.
 
-## 4.  Stwórz bucket według instrukcji do przetrzymywania pliku stanu dla terraforma:
+## 4.  Stwórz bucket według instrukcji do przetrzymywania pliku ze stanem dla terraforma:
 
 https://cloud.google.com/storage/docs/creating-buckets
