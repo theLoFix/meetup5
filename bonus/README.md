@@ -11,3 +11,7 @@ https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creatin
 ## 4.  Stwórz bucket według instrukcji do przetrzymywania pliku ze stanem dla terraforma:
 
 https://cloud.google.com/storage/docs/creating-buckets
+
+## 5. Gdy przejdziesz powyższe kroki, środowisko jest gotowe do uruchomienia pipeline'a.
+
+https://confluence.atlassian.com/bitbucket/run-pipelines-manually-861242583.html
