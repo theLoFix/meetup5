@@ -29,33 +29,7 @@ https://github.com/Ansible-in-DevOps/presentations.git
 
 1.4 Stworzenie projektu.
 
-## 2. DEMO
-
-2.1 Skonfigurowanie środowiska w GCP.
-
-2.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego.
-
-https://github.com/Ansible-in-DevOps/meetup5/blob/master/startup-script 
-
-2.3 Ustawienie WinRM na maszynie Windows.
-
-https://github.com/Ansible-in-DevOps/meetup5/blob/master/windows-startup-script-cmd
-
-2.4 Ustawienie zmiennych w pliku inventory dla maszyny Windows. 
-
-https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
-
-2.5 Przykłady uruchomienia ansible-playbook.
-    
- ```bash
-ansible -i inventory -m win_ping [windows hostname or IP address]
-
-ansible-playbook -i inventory enable_iis.yaml
-```   
-
-2.6 BONUS: IaC w TF + bitbucket (pipeline)
-
-## 3. Wymagania dla WINDOWS:
+## 2. Wymagania dla WINDOWS:
 
 Ansible może zarządzać: 
 
@@ -69,7 +43,7 @@ Ansible wymaga instalacji na systemie Windows:
 
 * .NET 4.0 
 
-## 4. Opcje autentykacji:
+## 3. Opcje autentykacji:
 
 | Opcja       | Konto lokalne | HTTP szyfrowanie | Konto AD |
 |-------------|---------------|------------------|----------|
@@ -96,6 +70,34 @@ powershell:
 ```bash
 Set-Item -Path WSMan:\localhost\Service\Auth\Basic -Value $true
 ```
+
+## 4. DEMO
+
+4.1 Skonfigurowanie środowiska w GCP.
+
+4.2 Zainstalowanie paczek potrzebnych dla Ansible dla node'a kontrolującego.
+
+https://github.com/Ansible-in-DevOps/meetup5/blob/master/startup-script 
+
+4.3 Ustawienie WinRM na maszynie Windows.
+
+https://github.com/Ansible-in-DevOps/meetup5/blob/master/windows-startup-script-cmd
+
+4.4 Ustawienie zmiennych w pliku inventory dla maszyny Windows. 
+
+https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
+
+4.5 Przykłady uruchomienia ansible-playbook.
+    
+ ```bash
+ansible -i inventory -m win_ping [windows hostname or IP address]
+
+ansible-playbook -i inventory enable_iis.yaml
+```   
+
+4.6 BONUS: IaC w TF + bitbucket (pipeline)
+
+
 
 **Dokumentacja:**
 
