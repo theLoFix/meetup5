@@ -49,6 +49,8 @@ https://github.com/Ansible-in-DevOps/meetup5/blob/master/inventory
     
  ```bash
 ansible -i inventory -m win_ping [windows hostname or IP address]
+
+ansible-playbook -i inventory enable_iis.yaml
 ```   
 
 2.6 BONUS: IaC w TF + bitbucket (pipeline)
